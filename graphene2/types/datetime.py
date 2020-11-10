@@ -3,7 +3,7 @@ from __future__ import absolute_import
 import datetime
 
 from aniso8601 import parse_date, parse_datetime, parse_time
-from graphql.language import ast
+from graphql2.language import ast
 
 from .scalars import Scalar
 

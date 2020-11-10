@@ -1,5 +1,5 @@
 import pytest
-from graphql.type import (
+from graphql2.type import (
     GraphQLArgument,
     GraphQLEnumType,
     GraphQLEnumValue,

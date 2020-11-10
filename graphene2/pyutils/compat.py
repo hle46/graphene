@@ -2,7 +2,7 @@ from __future__ import absolute_import
 
 import six
 
-from graphql.pyutils.compat import Enum
+from graphql2.pyutils.compat import Enum
 
 try:
     from inspect import signature

@@ -1,14 +1,14 @@
 import inspect
 
 from graphql2 import GraphQLObjectType, GraphQLSchema, graphql, is_type
-from graphql.type.directives import (
+from graphql2.type.directives import (
     GraphQLDirective,
     GraphQLIncludeDirective,
     GraphQLSkipDirective,
 )
-from graphql.type.introspection import IntrospectionSchema
-from graphql.utils.introspection_query import introspection_query
-from graphql.utils.schema_printer import print_schema
+from graphql2.type.introspection import IntrospectionSchema
+from graphql2.utils.introspection_query import introspection_query
+from graphql2.utils.schema_printer import print_schema
 
 from .definitions import GrapheneGraphQLType
 from .objecttype import ObjectType

@@ -1,6 +1,6 @@
 from __future__ import unicode_literals
 
-from graphql.language.ast import (
+from graphql2.language.ast import (
     BooleanValue,
     FloatValue,
     IntValue,

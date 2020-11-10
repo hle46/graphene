@@ -1,5 +1,5 @@
 import six
-from graphql.language.ast import BooleanValue, FloatValue, IntValue, StringValue
+from graphql2.language.ast import BooleanValue, FloatValue, IntValue, StringValue
 
 from .base import BaseOptions, BaseType
 from .unmountedtype import UnmountedType
