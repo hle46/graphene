@@ -1,7 +1,7 @@
 import json
 from functools import partial
 
-from graphql import GraphQLError, ResolveInfo, Source, execute, parse
+from graphql2 import GraphQLError, ResolveInfo, Source, execute, parse
 
 from ..context import Context
 from ..dynamic import Dynamic

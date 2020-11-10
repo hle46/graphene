@@ -2,7 +2,7 @@ import inspect
 from collections import OrderedDict
 from functools import partial
 
-from graphql import (
+from graphql2 import (
     GraphQLArgument,
     GraphQLBoolean,
     GraphQLField,

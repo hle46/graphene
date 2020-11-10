@@ -1,4 +1,4 @@
-from graphql import (
+from graphql2 import (
     GraphQLEnumType,
     GraphQLInputObjectType,
     GraphQLInterfaceType,

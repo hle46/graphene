@@ -1,7 +1,7 @@
 import datetime
 
 import pytz
-from graphql import GraphQLError
+from graphql2 import GraphQLError
 
 from ..datetime import Date, DateTime, Time
 from ..objecttype import ObjectType

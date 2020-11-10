@@ -1,4 +1,4 @@
-from graphql import graphql
+from graphql2 import graphql
 
 from ...types import Interface, ObjectType, Schema
 from ...types.scalars import Int, String

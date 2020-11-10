@@ -2,7 +2,7 @@ import re
 from collections import Iterable, OrderedDict
 from functools import partial
 
-from graphql_relay import connection_from_list
+from graphql_relay0 import connection_from_list
 from promise import Promise, is_thenable
 
 from ..types import Boolean, Enum, Int, Interface, List, NonNull, Scalar, String, Union

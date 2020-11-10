@@ -1,6 +1,6 @@
 import inspect
 
-from graphql import GraphQLObjectType, GraphQLSchema, graphql, is_type
+from graphql2 import GraphQLObjectType, GraphQLSchema, graphql, is_type
 from graphql.type.directives import (
     GraphQLDirective,
     GraphQLIncludeDirective,

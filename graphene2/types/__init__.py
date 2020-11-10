@@ -1,5 +1,5 @@
 # flake8: noqa
-from graphql import ResolveInfo
+from graphql2 import ResolveInfo
 
 from .objecttype import ObjectType
 from .interface import Interface

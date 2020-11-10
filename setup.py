@@ -83,7 +83,7 @@ setup(
     install_requires=[
         "six>=1.10.0,<2",
         "graphql-core2",
-        "graphql-relay>=0.4.5,<1",
+        "graphql-relay0",
         "promise>=2.1,<3",
         "aniso8601>=3,<4",
     ],

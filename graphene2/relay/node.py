@@ -2,7 +2,7 @@ from collections import OrderedDict
 from functools import partial
 from inspect import isclass
 
-from graphql_relay import from_global_id, to_global_id
+from graphql_relay0 import from_global_id, to_global_id
 
 from ..types import ID, Field, Interface, ObjectType
 from ..types.interface import InterfaceOptions
