@@ -7,12 +7,12 @@ from setuptools.command.test import test as TestCommand
 
 _version_re = re.compile(r"VERSION\s+=\s+(.*)")
 
-with open("graphene/__init__.py", "rb") as f:
+with open("graphene2/__init__.py", "rb") as f:
     version = ast.literal_eval(_version_re.search(f.read().decode("utf-8")).group(1))
 
 path_copy = sys.path[:]
 
-sys.path.append("graphene")
+sys.path.append("graphene2")
 try:
     from pyutils.version import get_version
 
@@ -57,7 +57,7 @@ tests_require = [
 ]
 
 setup(
-    name="graphene",
+    name="graphene2",
     version=version,
     description="GraphQL Framework for Python",
     long_description=open("README.rst").read(),
@@ -82,7 +82,7 @@ setup(
     packages=find_packages(exclude=["tests", "tests.*", "examples"]),
     install_requires=[
         "six>=1.10.0,<2",
-        "graphql-core>=2.1,<3",
+        "graphql-core2",
         "graphql-relay>=0.4.5,<1",
         "promise>=2.1,<3",
         "aniso8601>=3,<4",
