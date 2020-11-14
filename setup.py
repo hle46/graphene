@@ -61,7 +61,7 @@ tests_require = [
 dev_requires = ["black==19.10b0", "flake8>=3.7,<4"] + tests_require
 
 setup(
-    name="graphene",
+    name="graphene3",
     version=version,
     description="GraphQL Framework for Python",
     long_description=codecs.open(
